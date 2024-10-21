@@ -9,8 +9,8 @@ import {
 import { openAlert } from '../Redux/Slices/alertSlice';
 import { addMembers, setActivityLoading, updateActivity, updateBackground, updateDescription } from '../Redux/Slices/boardSlice';
 
-const listRoute = 'https://trello-clone-one-phi.vercel.app/list';
-const boardRoute = 'https://trello-clone-one-phi.vercel.app/board';
+const listRoute = 'http://localhost:5001/list';
+const boardRoute = 'http://localhost:5001/board';
 
 export const getLists = async (boardId, dispatch) => {
 	dispatch(setLoading(true));

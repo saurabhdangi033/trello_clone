@@ -53,7 +53,7 @@ import {
 	updateStartDueDatesOfCard,
 } from '../Redux/Slices/listSlice';
 
-const baseUrl = 'https://trello-clone-one-phi.vercel.app/card';
+const baseUrl = 'http://localhost:5001/card';
 let submitCall = Promise.resolve();
 
 export const getCard = async (cardId, listId, boardId, dispatch) => {

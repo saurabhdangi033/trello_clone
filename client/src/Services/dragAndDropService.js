@@ -2,7 +2,7 @@ import axios from 'axios';
 import { updateCardDragDrop, updateListDragDrop } from '../Redux/Slices/listSlice';
 import { openAlert } from '../Redux/Slices/alertSlice';
 
-const baseUrl = 'https://trello-clone-one-phi.vercel.app/list';
+const baseUrl = 'http://localhost:5001/list';
 
 //  Create promise to queue requests
 let submitCall = Promise.resolve();
